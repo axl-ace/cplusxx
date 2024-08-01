@@ -10,11 +10,13 @@ Question questions[4] = {
     {4, "What is the capital of Rusia?", {"Rome", "Moscow", "Naples", "Florence"}, "Moscow"},
 };
 
-
+void printHi() {
+    std::cout << "Hello and how are you doing today?" << std::endl;
+}
 
 int main()
 {
-
+    printHi();
     addInts(9,4);
     substractInts(5, 2);
 
