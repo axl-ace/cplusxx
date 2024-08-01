@@ -14,8 +14,13 @@ void printHi() {
     std::cout << "Hello and how are you doing today?" << std::endl;
 }
 
+void printDance() {
+    std::cout << "I am dancing really well" << std::endl;
+}
+
 int main()
 {
+    printDance();
     printHi();
     addInts(9,4);
     substractInts(5, 2);
